@@ -37,7 +37,7 @@ app = Flask(__name__)
 def predict():
     data = request.json["data"]
     input_array = pre_process(data, features)
-    output = make_prediction(input_array, rf_model, threshold)
+    output = make_prediction(input_array, rf_model, model_threshold)
     final_output = post_process(output)
     return final_output
 
