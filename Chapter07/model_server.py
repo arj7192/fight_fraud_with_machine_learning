@@ -11,17 +11,17 @@ rf_model = model_artifact["rf_model"]
 model_threshold = model_artifact["rf_model_threshold"]
 
 
-def pre_process(data):
+def pre_process(data, features):
     data["amountOrig"] = data["oldbalanceOrg"] - data["newbalanceOrig"]
     data["amountDest"] = data["oldbalanceDest"] - data["newbalanceDest"]
     data["errorBalanceOrig"] = data["amount"] - data["amountOrig"]
     data["errorBalanceDest"] = data["amount"] - data["amountDest"]
-    data["CASH_OUT"] = 1 if data["type"] == "CASH_OUT" else 0
-    data["TRANSFER"] = 1 if data["type"] == "TRANSFER" else 0
+    for cat_f in ["CASH_IN", "CASH_OUT", "DEBIT", "PAYMENT", "TRANSFER"]:
+        data[cat_f] = 1 if data["type"] == cat_f else 0
     data = [data[f] for f in features]
     return [data]
 
-def make_prediction(input_payload):
+def make_prediction(input_payload, model, threshold):
     prediction_probabilities = rf_model.predict_proba(input_payload)
     predictions = [1 if p[1] > model_threshold else 0 for p in prediction_probabilities]
     return predictions
@@ -36,8 +36,8 @@ app = Flask(__name__)
 @app.route("/predict", methods=["POST"])
 def predict():
     data = request.json["data"]
-    input_array = pre_process(data)
-    output = make_prediction(input_array)
+    input_array = pre_process(data, features)
+    output = make_prediction(input_array, rf_model, threshold)
     final_output = post_process(output)
     return final_output
 
