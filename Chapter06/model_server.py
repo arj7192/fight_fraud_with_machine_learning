@@ -11,7 +11,7 @@ logreg_model = model_artifact["logreg_model"]
 model_threshold = model_artifact["logreg_model_threshold"]
 
 def pre_process(data):
-    raw_input = [data[feature_name] for feature_name in sorted(data.keys())]
+    raw_input = [data[feature_name] if data[feature_name] is not None else 0 for feature_name in sorted(data.keys())]
     scaled_input = scaler.transform([raw_input])
     return scaled_input
 
