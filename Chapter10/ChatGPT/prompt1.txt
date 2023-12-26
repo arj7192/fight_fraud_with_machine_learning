@@ -1,10 +1,9 @@
-Is this a phishing email? (strictly yes/no)
-
 Security breach on your account
-help@emailinspector.net <help@emailinspector.net> Tue, Oct 01, 2022 at 11:31 AM
-Reply-To: help@emailinspector.net
-To: john@smith.com
+help@account-protector.net <help@account-protector.net> Tue, Oct 01, 2022 at 11:31 AM
+Reply-To: help@account-protector.net
+To: <your>@<email>.com
 Security breach on your account
-Dear John,
-We have received a report of suspicious activity on your account. Please contact us by replying to this email if this was not you.
+Hi there,
+Your account is currently frozen due to an undisclosed security breach.
+We have received a report of suspicious activity on your account. Please click here to unlock your account.
 Sincerely,
