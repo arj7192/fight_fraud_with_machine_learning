@@ -1,31 +1,9 @@
-Is this a phishing email (strictly yes or no)?
-    
-Help with your Self Assessment tax return
-HMRC help and support <no.reply@advice.hmrc.gov.uk>	Wed, Nov 15, 2023 at 4:03 PM
-Reply-To: no.reply@advice.hmrc.gov.uk
-To: john@smith.com
- 
-Dear customer,
-
-Following on from our earlier email, if you need to send us your tax return and make a payment, we can help you get it right – starting today – with our free online support.
-
-If you’ve already sent us your tax return and paid – thank you. You don’t need to do anything else.
-
-If not, join our live webinar and we’ll help you get it right. You’ll be able to ask questions throughout the webinar by using the on-screen text box.  
-
-How to finish your Self Assessment tax return, your tax calculation and payments
-We’ll be looking at: 
-•	finishing your tax return, including underpaid tax and other debts in your tax code and what to do if you’ve paid too much tax
-•	understanding, viewing and printing your tax calculation
-•	submitting your tax return
-•	paying any tax you owe and what to do if you’ve made a mistake 
-Register here
-
-HMRC’s YouTube channel offers more help with your tax return including 'How do I find my Self Assessment Unique Taxpayer Reference on the HMRC app?' and 'Do I need to declare foreign income to HMRC?'.
-
-Or choose from the following playlists: 
-•	Filling in your tax return﻿
-•	Self Assessment 
-
-Yours faithfully
-HM Revenue and Customs
+Security breach on your account
+help@account-protector.net <help@account-protector.net> Tue, Oct 01, 2022 at 11:31 AM
+Reply-To: help@account-protector.net
+To: <your>@<email>.com
+Security breach on your account
+Hi there,
+Your account is currently frozen due to an undisclosed security breach.
+We have received a report of suspicious activity on your account. Please click here to unlock your account.
+Sincerely,
