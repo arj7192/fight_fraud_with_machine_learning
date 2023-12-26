@@ -1,0 +1,10 @@
+Is this a phishing email (strictly yes or no)?
+    
+Your tennis court booking
+webmaster@royalgreenwich.gov.uk <webmaster@royalgreenwich.gov.uk> Mon, Oct 2, 2023 at 2:52 PM
+Reply-To: webmaster@royalgreenwich.gov.uk
+To: john@smith.com
+Tennis court bookings
+Thank you for your tennis court booking.
+Your booking reference is 2120887.
+This is not your permit number – your permit will be sent separately to you by email.
