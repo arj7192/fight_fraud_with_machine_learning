@@ -1,4 +1,4 @@
-# Use the official Python image from version 3.9 or upwards as the base image
+# Use the official Python image from version 3.10 or upwards as the base image
 FROM python:3.10
 
 ARG GRADIO_SERVER_PORT=8082
