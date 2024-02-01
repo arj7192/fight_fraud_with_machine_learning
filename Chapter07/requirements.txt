@@ -1,8 +1,1 @@
-pandas==2.0.1
-seaborn==0.12.2
-matplotlib==3.7.1
-scikit-learn==1.2.2
-imbalanced-learn==0.10.1
-scipy==1.10.1
-joblib==1.2.0
-flask==2.3.2
+langchain==0.0.344
