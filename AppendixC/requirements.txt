@@ -1,0 +1,8 @@
+matplotlib==3.7.2
+catboost==0.26.1
+sweetviz==2.1.4
+xgboost==1.7.5
+lightgbm==3.1.1
+scikit-learn==1.2.2
+scipy==1.10.1
+seaborn==0.12.2
